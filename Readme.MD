@@ -145,35 +145,21 @@ Duc HA DUONG (23) ...`
 * Example: 
     * Input: `/ben horoscope Hoang Hiep`
     * Output: 
-     `Hoang Hiep Le
-        Birday : 1996-08-20
-        Your sign is : Leo
-        Daily horoscope on : ...`
+     `Hoang Hiep Le ... Birday : 1996-08-20 ... Your sign is : Leo ... Daily horoscope on : ...`
 
 `/ben offyskill <offy_name>`
 * Get infomation about offy member skill and competencies.
 * Example: 
     * Input: `/ben offyskill Hoai Linh`
     * Output: 
-     `Hoai Linh Ngo
-        Cluster : Caring
-        Astro sign : Aquarius
-        Competencies : The competency is not set
-        Skills : Problem Solving (697h), Install software (35h), admin scripts (35h),`
+     `Hoai Linh Ngo ... Cluster : Caring ... Astro sign : Aquarius ... Competencies : The competency is not set ... Skills : Problem Solving (697h), Install software (35h), admin scripts (35h),`
 
 `/ben whoskill <skill_name>`
 * Give you all the offies name have this skill.
 * Example: 
     * Input: `/ben whoskill php`
     * Output: 
-     `You are looking for offies who have skill similar to php
-        -----------------------------------------
-        PHP skill: 
-        Offy Name: Huu Binh Nguyen, Ngoc Thang Nguyen, Quang Hien Tran, Tan Khoa NGUYEN, Thanh Trung TO, 
-        -----------------------------------------
-        FuelPHP skill: 
-        Offy Name: Huu Binh Nguyen, 
-        -----------------------------------------`
+     `You are looking for offies who have skill similar to php: ... PHP skill: Offy Name: Huu Binh Nguyen, Ngoc Thang Nguyen, Quang Hien Tran, Tan Khoa NGUYEN, Thanh Trung TO, ... FuelPHP skill: Offy Name: Huu Binh Nguyen,...`
 
 `/ben offyage <offy_name>`
 * Get infomation about offy member skill and competencies.
@@ -181,58 +167,25 @@ Duc HA DUONG (23) ...`
     * Input: `/ben offyage Thao Lan`
     * Output: 
      `Thao Lan NGUYEN HOANG
-        Cluster : IT Crew
-        Astro sign : Leo
-        Created date on Dinh: 2014-06-03 04:12:14
-        Offy age over: 5 year(s)`
+        Cluster : IT Crew ... Astro sign : Leo ... Created date on Dinh: 2014-06-03 04:12:14 ... Offy age over: 5 year(s)`
 
 `/ben getweather`
 * You can see today weather at OffyPlex.
 * Example: 
     * Input: `/ben getweather`
-    * Output: 
-     `Today weather: 
-        -----------------------------------------
-        Mostly cloudy until tomorrow afternoon.
-        -----------------------------------------
-        For more details: 
-        https://darksky.net/forecast/10.7752,106.6704/si12/en`
-
-`/ben getweather`
-* You can see today weather at OffyPlex.
-* Example: 
-    * Input: `/ben getweather`
-    * Output: 
-     `Today weather: 
-        -----------------------------------------
-        Mostly cloudy until tomorrow afternoon.
-        -----------------------------------------
-        For more details: 
-        https://darksky.net/forecast/10.7752,106.6704/si12/en`
+    * Output: `Today weather: Mostly cloudy until tomorrow afternoon. For more details: https://darksky.net/forecast/10.7752,106.6704/si12/en`
 
 `/ben cashin <YYYY-MM-DD>`
 * Ben will tell us the total amount of Quote created on Dinh.
 * Example: 
     * Input: `/ben cashin 2018-12` will show all cashin in Dec-2018 (You can also specific the day e.g: `/ben cashin 2018-12-12`)
     * Output: 
-     `Name: QO2018-1204 
-      Date order: 2018-12-31 
-      Last update: 2018-12-31 03:31:15 
-      Price:3,695.0€ 
-    -----------------------------------------
-    ...
-    Quote sent on 2018-12: 258,405.64€`
+     `Name: QO2018-1204 ... Date order: 2018-12-31 ... Last update: 2018-12-31 03:31:15 ... Price:3,695.0€ ... Quote sent on 2018-12: 258,405.64€`
 
 `/ben cashout <YYYY-MM-DD>`
 * Ben will tell us the total amount of PR in “to endorse” status.
 * Example: 
     * Input: `/ben cashout 2018-12` will show all cashout in Dec-2018 (You can also specific the day e.g: `/ben cashout 2018-12-12`)
     * Output: 
-     `Name: GS Monthly Expense- Dec 2018 (PR2018-0165) 
-      Date order: 2018-12-03 
-      Last update: 2018-12-04 07:24:00 
-      Price:220.22€ 
-      Price (VND):5,000,000đ 
-    -----------------------------------------
-    ...
-    Expense Forecasting on 2018-12: 9,917.56€`
+     `Name: GS Monthly Expense- Dec 2018 (PR2018-0165)
+... Date order: 2018-12-03 ... Last update: 2018-12-04 07:24:00 ... Price:220.22€ ... Price(VND):5,000,000đ ... Expense Forecasting on 2018-12: 9,917.56€`
